@@ -6,7 +6,7 @@ frontend:
         - bundle install
     build:
       commands:
-        - bundle exec jekyll b
+        - JEKYLL_GITHUB_TOKEN=$JEKYLL_GITHUB_TOKEN bundle exec jekyll b
   artifacts:
     baseDirectory: _site
     files:
