@@ -42,8 +42,9 @@ minima:
 markdown: kramdown
 
 header_pages:
-  - about.md
+  - studio.md
   - projects.md
+  - about.md
 
 plugins:
   - jekyll-feed

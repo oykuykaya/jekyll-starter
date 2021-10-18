@@ -2,6 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
+images:
+  - image_path: /images/landing_page.jpg
+    title: Landing Page
+  - image_path: /images/ecs_concept.png
+    title: ECS Overview
 ---
 
 [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
@@ -26,3 +31,4 @@ permalink: /projects/
     </li>
   {% endfor %}
 </ul>
+
