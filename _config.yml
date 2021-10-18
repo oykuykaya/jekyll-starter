@@ -50,7 +50,7 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-admin
+  # - jekyll-admin
   - "jekyll-github-metadata"
 
 # Admin CMS
@@ -62,3 +62,7 @@ plugins:
 #     - datafiles
 #     - configuration
 # homepage: "pages"
+
+# jekyll_admin:
+#   homepage: "posts"
+
