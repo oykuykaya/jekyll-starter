@@ -1,10 +1,20 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-gemspec
 
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
+gem "jekyll", "~> 4.2.1"
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "minima", "~> 2.5"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+end
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
 
 gem "webrick", "~> 1.7"
 
@@ -12,8 +22,6 @@ gem "jekyll-github-metadata", "~> 2.13"
 
 gem "backports", "~> 3.21"
 
-gem "wdm", "~> 0.1.1"
-
 gem "dotenv", "~> 2.7"
 
-# gem "jekyll-admin", "~> 0.11.0"
+gem "jekyll-admin", "~> 0.11.0"
