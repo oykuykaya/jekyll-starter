@@ -5,7 +5,7 @@ permalink: /studio/
 images:
   - image_path: /images/landing_page.jpg
     title: Landing Page
-    link: /images/ecs_concept.png
+    link: /images/landing_page.jpg
   - image_path: /images/ecs_concept.png
     title: ECS Overview
     link: /images/ecs_concept.png

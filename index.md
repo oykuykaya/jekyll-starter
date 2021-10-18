@@ -6,4 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+description: hello
 ---
+
+<!-- <h1 class="project-name">{{ page.description | default: site.description }}</h1> -->
