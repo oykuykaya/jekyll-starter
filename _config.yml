@@ -22,8 +22,9 @@ title: Docs & Blog
 author:
   name: Umut Yalcinkaya
   email: yalcinkayaumut@outlook.com
+website: https://umutykaya.com/
 description: > # this means to ignore newlines until "show_excerpts:"
-  Written by Umut Yalçınkaya who lives and works in Amsterdam building purposeful things. 
+  Written by Umut Yalcinkaya who lives and works in Amsterdam building purposeful things. 
   You could follow him on Twitter
 show_excerpts: false # set to true to show excerpts on the homepage
 
