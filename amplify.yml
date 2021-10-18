@@ -6,11 +6,10 @@ frontend:
         - bundle install
     build:
       commands:
-        - JEKYLL_ENV=production bundle exec jekyll b --trace --watch
+        - bundle exec jekyll b
   artifacts:
     baseDirectory: _site
     files:
       - '**/*'
   cache:
-    paths:
-      - 'vendor/**/*'
+    paths: []
