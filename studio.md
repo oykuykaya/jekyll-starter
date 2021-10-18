@@ -11,9 +11,9 @@ images:
     link: /images/ecs_concept.png
 ---
 
-<ul class="photo-gallery">
+<ul class="photo-gallery" >
   {% for image in page.images %}
-    <li>
+    <li style="list-style-type: none; padding: 20px;">
       <a href="{{ image.link }}">
         <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
       </a>
