@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - bundle install --path vendor/bundle
+        - bundle install
     build:
       commands:
         - JEKYLL_ENV=production bundle exec jekyll b --trace --watch
