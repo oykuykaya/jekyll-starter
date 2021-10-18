@@ -13,6 +13,16 @@ permalink: /projects/
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 
-{% for repository in site.github.public_repositories %}
+<!-- {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
+{% endfor %} -->
+
+<ul>
+  {% for repository in site.github.public_repositories %}
+    <li>
+      <a href="{{ repository.name }}">{{ repository.name }}</a>
+      {{ repository.description }}
+      
+    </li>
+  {% endfor %}
+</ul>
