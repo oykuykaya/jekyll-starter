@@ -4,9 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-I'm really curios person about technology and innovation. Please feel free to chat with me about ideas. I believe that innovation valuable whether it has been shared.
+[![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
 
-[umutykaya](https://github.com/umutykaya)
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-[jekyll-organization]: https://github.com/jekyll
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
