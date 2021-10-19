@@ -53,6 +53,12 @@ plugins:
   - jekyll-admin
   - "jekyll-github-metadata"
 
+defaults:
+  - scope:
+      path: "/images"
+    values:
+      image: true
+
 # Admin CMS
 # jekyll_admin:
 #   hidden_links:

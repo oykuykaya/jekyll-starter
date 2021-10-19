@@ -1,17 +1,17 @@
 ---
+title: ECS Overview
 layout: default
 regenerate: true
 categories: jekyll update
-title: ECS Overview
-date: "2021-10-16 17:30:00"
-description: "Cron jobs ensure to automate and schedule python jobs."
-image: /images/ecs_concept.png
-comments: True
+date: '2021-10-16 17:30:00'
+description: Cron jobs ensure to automate and schedule python jobs.
+comments: true
 ---
 
 In this article, the goal is to describe common concepts that are using in Elastic Container Service of AWS. you can also find common SDLC (software development lifecycle) topics.
 
-![]({{ page.image | relative_url}})
+![name of the image]({{ 'assets/img/ecs_concept.png' | relative_url }}) 
+*ECS overview refer to AWS Console*
 
 
 ## Terminology
